@@ -1,0 +1,172 @@
+.header{
+    height:65px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    border-bottom: 1px;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgb(0,0,0,0.15);
+    z-index:100;
+}
+.left{
+    
+    width:160px;
+    display: flex;
+    align-items: center;
+
+}
+.youtube-logo{
+    
+    height:25px;
+    width: 100px;
+}
+.hamburger-menu{
+    
+    height:25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.search{
+    flex:1;
+    height:37px;
+    max-width: 500px;
+    width: 0;
+    padding-left: 12px;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+    border-radius: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search-button{
+    height: 41px;
+    width:60px;
+    margin-left: -1px;
+    border-width: 1px;
+    border-color: rgb(221, 220, 220);
+    border-style: solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+    
+}
+.voice-search-button{
+    height: 41px;
+    width:40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border-width: 0px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    cursor: pointer;
+    
+}
+.voice-search-button:hover .tooltip{
+    opacity: 1;
+    
+}
+.voice-search-button .tooltip{
+    top:60px;
+    left:950px;
+    padding: 2px 5px;
+}
+.voice-search-icon{
+    height:24px;
+    width: 24px;
+}
+.search-icon{
+    height:24px;
+    width: 24px;
+    
+}
+.tooltip{
+    position:absolute;
+    top:40px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 6px;
+    padding-bottom: 3px;
+    padding-top:3px;
+    
+    font-family: Roboto , arial,sans-serif;
+    background-color: rgba(45, 43, 43, 0.615);
+    color:white;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.middle{
+    
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin-left: 250px; 
+    
+}
+.right{
+    
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.upload  , .noti , .yt-apps {
+    height: 30px; 
+    border-radius: 50%;
+    border-width: 0px;
+    flex:1;
+    border-style: solid;
+}
+
+
+.noti-icon{
+    position:relative;
+}
+.noti-count{
+    position:absolute;
+    top:-3px;
+    right:-2px;
+    width:14px;
+    height: 14px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: Roboto,arial,sans-serif;
+    text-align: center;
+    font-size: 11px;
+    background-color: rgb(195, 12, 12);
+    padding: 1px 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.pp{
+    height: 40px;
+    
+    width: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border-width: 0px;
+    
+    
+    border-style: solid;
+}
